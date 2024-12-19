@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define d double 
+#define d double
 
 class Solution {
 public:
@@ -16,7 +16,7 @@ public:
         }
 
         while(es){
-            auto[_,a,b]=pq.top();
+            auto [_,a,b]=pq.top();
             pq.pop();
             a++;
             b++;
